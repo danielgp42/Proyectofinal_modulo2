@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  #contenedorPrincipal{
+    background-color: #030303;
+    height: 700px;
+  }
+  .contenedor-flex{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #contenedorPrincipal .caja{
+    color: white;
+    background-color:blueviolet;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    border: 1px solid #000;
+    justify-content: center; /* Eje Principal */
+    align-items: center; /* Eje Cruzado */
+  }
+  
+  .caja-uno {
+    /* align-self: flex-start; */
+  }
+  
+  .caja-tres{
+    /* align-self: flex-end; */
+  }
