@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Starbucks</title>
   <link rel="stylesheet" href="./estillos/tarjetas.css">
+  <link rel="stylesheet" href="./estillos/header.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -12,7 +13,53 @@
     rel="stylesheet">
 </head>
 <body>
-  <div id="tarjetas">
+  <header class="header">
+    <nav class="topnavbar">
+      <ul class="left-nav nav">
+        <li class="nav-item">
+          <a href="./index.html">
+            <img class="item-image" src="./images/logostarbacks.svg" alt="">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#">
+            Menu
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#">
+            Rewards
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="./index.html">
+            <i class="fa-solid fa-house"></i>
+            Home
+          </a>
+        </li>
+      </ul>
+      <ul class="right-nav nav">
+        <li class="nav-item">
+          <a href="#">
+            <i class="fa-solid fa-location-dot"></i>
+            Localizar Tienda
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#">
+            Ingresar
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#">
+            Únete
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="tarjetas">
     <div class="contenedor-imagen contenedor-interno">
       <img
         class="imagen-starbucks"
@@ -84,7 +131,14 @@
         <button class="boton-custom"> Read More </button>
       </div>
     </div>
-    <a href="./flex.html" target="_blank">intro a flexbox</a>
+  </div>
+  </main>
+  
+  <div class="cookie-banner" id="cookieBanner">
+    <p>Utilizamos cookies para mejorar tu experiencia. Consulta nuestra 
+      <a href="#politica-de-privacidad">Política de Privacidad</a> para más información.
+    </p>
+    <button class="cookie-btn" onclick="ocultarBanner()">Aceptar</button>
   </div>
 </body>
 </html>

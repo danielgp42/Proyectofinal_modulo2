@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Roboto", serif;
+  }
+  .header{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+    padding: 20px;
+  }
+  .topnavbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  
+  .topnavbar .nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+  }
+  .topnavbar .nav .nav-item .item-image{
+    max-width: 50px;
+  }
+  .topnavbar .nav .nav-item a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+  }
+  .topnavbar .nav .nav-item a:hover{
+    color: green;
+  }
+  
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    background-color: #2c3e50; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar el contenido */
+    padding: 15px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente legible */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto flotante */
+    z-index: 1000; /* Asegura que esté siempre visible */
+  }
+  
+  /* Estilo del botón */
+  .cookie-btn {
+    background-color: #27ae60; /* Verde para el botón */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 15px; /* Espaciado entre texto y botón */
+    transition: background-color 0.3s ease;
+  }
+  
+  .cookie-btn:hover {
+    background-color: #2ecc71; /* Efecto hover */
+  }
+  
+  /* Enlace dentro del banner */
+  .cookie-banner a {
+    color: #1abc9c; /* Verde para el enlace */
+    text-decoration: underline;
+  }
+  
+  .cookie-banner a:hover {
+    color: #16a085; /* Más oscuro al pasar el cursor */
+  }
+  
