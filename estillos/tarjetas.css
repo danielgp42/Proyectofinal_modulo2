@@ -55,11 +55,11 @@
   #tarjeta-2 .contenedor-imagen-2{
     width: 50%;
     vertical-align: middle;
-    text-align: right;
+    float: right;
   }
   #tarjeta-2 .contenedor-imagen-2 .imagen-starbucks2{
     max-width: 100%;
-    text-align: right;
+
   }
   .contenedor-interno2{
     display: inline-block;
