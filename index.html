@@ -6,6 +6,7 @@
   <title>Starbucks</title>
   <link rel="stylesheet" href="./estillos/tarjetas.css">
   <link rel="stylesheet" href="./estillos/header.css">
+  <script src="https://kit.fontawesome.com/d8df87160d.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -18,7 +19,7 @@
       <ul class="left-nav nav">
         <li class="nav-item">
           <a href="./index.html">
-            <img class="item-image" src="./images/logostarbacks.svg" alt="">
+            <img class="item-image" src="https://1000marcas.net/wp-content/uploads/2019/12/Starbucks-logo.jpg" alt="logo">
           </a>
         </li>
         <li class="nav-item">
@@ -29,12 +30,6 @@
         <li class="nav-item">
           <a href="./Rewards.html">
             Rewards
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="./index.html">
-            <i class="fa-solid fa-house"></i>
-            Home
           </a>
         </li>
       </ul>
@@ -131,14 +126,43 @@
         <button class="boton-custom"> Read More </button>
       </div>
     </div>
+
+    <div class="container">
+      <div class="box">
+        <img
+          src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FNoticias.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
+          alt="imagen6"
+        >
+        <p>Consulta los eventos más recientes.</p>
+        <button>Aqui</button>
+      </div>
+      <div class="box">
+        <img
+          src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FTC.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" 
+          alt="imagen7"
+        >
+        <p>Términos y condiciones.</p>
+        <button>Ver mas</button>
+      </div>
+    </div>
   </div>
+
+
   </main>
-  
   <div class="cookie-banner" id="cookieBanner">
-    <p>Utilizamos cookies para mejorar tu experiencia. Consulta nuestra 
-      <a href="#politica-de-privacidad">Política de Privacidad</a> para más información.
-    </p>
-    <button class="cookie-btn" onclick="ocultarBanner()">Aceptar</button>
+    <div class="banner-text-container">
+      <p class="banner-text-bold">
+        Este Sitio Usa Cookies
+      </p>
+      <span>
+        Al navegar en nuestro sitio aceptas que usemos cookies para personalizar tu experiencia según la Declaración de
+        Privacidad.
+      </span>
+    </div>
+    <div class="banner-button-container">
+      <button id="closeBannerButton" class="banner-button">Aceptar</button>
+    </div>
   </div>
+  <script defer src="./estillos/scripts/scripts.js"></script>
 </body>
 </html>

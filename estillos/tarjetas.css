@@ -161,3 +161,53 @@
   .contenedor-interno5{
     display: inline-block;
   }
+  .container {
+    display: flex;
+    justify-content: space-between; /* Espaciado opcional */
+    align-items: center; /* Alineación vertical opcional */
+    width: 100%; /* Ancho del contenedor principal */
+  }
+  
+  .box {
+    flex: 1; /* Cada caja ocupa el mismo espacio */
+    margin: 10px; /* Separación entre las cajas */
+    height: 492.4px; /* Altura fija. vista en inspector de elementos*/
+    background-color: #98CDE4; /* Color de fondo */
+    color: white;
+    display: flex;
+    flex-direction: column; /* Elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+  }
+  .box img {
+    width: 100%; /* Ajusta el tamaño máximo */
+    height: auto;
+    margin-bottom: 10px; /* Espacio debajo de la imagen */
+    align-self: flex-start;
+  }
+  
+  /* Texto */
+  .box p {
+    font-size: 1rem;
+    margin-bottom: 10px; /* Espacio debajo del texto */
+    color: black;
+  }
+  
+  /* Botón */
+  .box button {
+    background-color: #F6BFD9;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .box button:hover {
+    background-color: #3e8e41;
+  }
+  
+
+  
