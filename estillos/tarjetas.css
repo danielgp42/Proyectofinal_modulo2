@@ -166,6 +166,7 @@
     justify-content: space-between; /* Espaciado opcional */
     align-items: center; /* Alineación vertical opcional */
     width: 100%; /* Ancho del contenedor principal */
+
   }
   
   .box {
