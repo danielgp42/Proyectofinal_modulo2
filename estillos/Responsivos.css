@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px) {
+    #tarjetas, #tarjeta-2, #tarjeta-3, #tarjeta-4, #tarjeta5 {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contenedor-texto, .contenedor-texto-2, .contenedor-texto-3, .contenedor-texto-4, .contenedor-texto5 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #tarjetas, #tarjeta-2, #tarjeta-3, #tarjeta-4, #tarjeta5 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .contenedor-texto, .contenedor-texto-2, .contenedor-texto-3, .contenedor-texto-4, .contenedor-texto5 {
+        margin-top: 2rem;
+    }
+    .box {
+        flex: 1 1 45%; /* Las cajas ocuparán el 45% de su contenedor */
+        margin: 5px; /* Menor separación entre las cajas */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        flex: 1 1 100%; /* Las cajas ocuparán el 100% de su contenedor */
+    }
+    .contenedor-texto, .contenedor-texto-2, .contenedor-texto-3, .contenedor-texto-4, .contenedor-texto5 {
+        margin-top: 1.5rem;
+    }
+}

@@ -74,8 +74,8 @@ body{
 }
 
 .footer {
-  background-color: white; /* Color oscuro */
-  color: black; /* Texto blanco */
+  background-color: white; 
+  color: black; 
   padding: 20px 40px;
   font-family: Arial, sans-serif;
 }
@@ -133,7 +133,7 @@ ul {
   height: 24px;
 }
 .footer-social a img {
-  transition: transform 0.3s ease; /* Agrega una transición suave al transform */
+  transition: transform 0.3s ease;
 }
 .footer-social a:hover img {
   transform: translateY(-10px); /* Desplaza la imagen hacia arriba */

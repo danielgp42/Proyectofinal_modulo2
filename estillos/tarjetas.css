@@ -1,214 +1,205 @@
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  body{
-    font-family: "Roboto", serif;
-  }
-  #tarjetas{
-    position: relative;
-    height: 281.4px;
-    width: 964.8px;
-    margin-bottom: 30px;
-    margin-left: 300px;
-    background-color: #1E3932;
-    
-  }
-  
-  #tarjetas .contenedor-imagen{
-    width: 50%;
-    vertical-align: middle;
-  }
-  
-  #tarjetas .contenedor-imagen .imagen-starbucks{
-    max-width: 100%;
-  }
-  .contenedor-texto{
-    position: absolute;
-    color: white;
-    text-align: center;
-    width: 400px;
-    margin-left: 38.287px;
-    margin-right: 38.287px;
-    margin-top: 100px;
-  }
-  .contenedor-interno{
-    display: inline-block;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "Roboto", serif;
+  box-sizing: border-box;
+  width: 85%;
+  margin: 0 130px;
+}
+#tarjeta1{
+  position: relative;
+  background-color: #1E3932;
+  margin-bottom: 30px;
+}
 
-  #tarjeta-2{
-    position: relative;
-    height: 281.4px;
-    width: 964.8px;
-    margin-bottom: 30px;
-    margin-left: 300px;
-    background-color: #0044B4;
-  }
-   
-  .contenedor-texto-2{
-    position: absolute;
-    color: white;
-    text-align: center;
-    width: 400px;
-    margin-left: 38.287px;
-    margin-right: 38.287px;
-    margin-top: 100px;
-  }
-  #tarjeta-2 .contenedor-imagen-2{
-    width: 50%;
-    vertical-align: middle;
-    height: 281.4px;
-    float: right;
-  }
-  #tarjeta-2 .contenedor-imagen-2 .imagen-starbucks2{
-    max-width: 100%;
-    height: 281.4px;
-  }
-  .contenedor-interno2{
-    display: inline-block;
-  }
+#tarjeta1 .contenedor-imagen{
+  width: 50%;
+  vertical-align: middle;
+}
 
-  #tarjeta-3{
-    position: relative;
-    height: 281.4px;
-    width: 964.8px;
-    margin-bottom: 30px;
-    margin-left: 300px;
-    background-color: #D50032;
-  }
-  
-  #tarjeta-3 .contenedor-imagen-3{
-    width: 50%;
-    vertical-align: middle;
-  }
-  
-  #tarjeta-3 .contenedor-imagen-3 .imagen-starbucks3{
-    max-width: 100%;
-    height: 281.4px;
-  }
-  .contenedor-texto-3{
-    position: absolute;
-    color: white;
-    text-align: center;
-    width: 400px;
-    margin-left: 38.287px;
-    margin-right: 38.287px;
-    margin-top: 100px;
-  }
-  .contenedor-interno3{
-    display: inline-block;
-  }
+#tarjeta1 .contenedor-imagen .imagen-starbucks{
+  max-width: 100%;
+}
+.contenedor-texto{
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 16px;
+}
+.contenedor-interno{
+  display: inline-block;
+}
 
-  #tarjeta-4{
-    position: relative;
-    height: 281.4px;
-    width: 964.8px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    background-color: #1E3932;
-  }
-   
-  .contenedor-texto-4{
-    position: absolute;
-    color: white;
-    text-align: center;
-    width: 400px;
-    margin-left: 38.287px;
-    margin-right: 38.287px;
-    margin-top: 100px;
-  }
-  #tarjeta-4 .contenedor-imagen-4{
-    width: 50%;
-    vertical-align: middle;
-    height: 281.4px;
-    float: right;
-  }
-  #tarjeta-4 .contenedor-imagen-4 .imagen-starbucks4{
-    max-width: 100%;
-    height: 281.4px;
-  }
-  .contenedor-interno4{
-    display: inline-block;
-  }
+#tarjeta-2{
+  position: relative;
+  background-color: #0044B4;
+  margin-bottom: 30px;
+}
+ 
+.contenedor-texto-2{
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 560px;
+  margin-left: 38.287px;
+  margin-right: 38.287px;
+  margin-top: 150px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+#tarjeta-2 .contenedor-imagen-2{
+  width: 50%;
+  vertical-align: middle;
+}
+#tarjeta-2 .contenedor-imagen-2 .imagen-starbucks2{
+  max-width: 100%;
+}
+.contenedor-interno2{
+  display: inline-block;
+}
 
-  #tarjeta5{
-    position: relative;
-    height: 281.4px;
-    width: 964.8px;
-    margin-bottom: 30px;
-    background-color: #D50032;
-  }
-  
-  #tarjeta5 .contenedor-imagen5{
-    width: 50%;
-    vertical-align: middle;
-  }
-  
-  #tarjeta5 .contenedor-imagen5 .imagen-starbucks5{
-    max-width: 100%;
-    height: 281.4px;
-  }
-  .contenedor-texto5{
-    position: absolute;
-    color: white;
-    text-align: center;
-    width: 400px;
-    margin-left: 38.287px;
-    margin-right: 38.287px;
-    margin-top: 100px;
-  }
-  .contenedor-interno5{
-    display: inline-block;
-  }
-  .container {
-    display: flex;
-    justify-content: space-between; /* Espaciado opcional */
-    align-items: center; /* Alineación vertical opcional */
-    width: 100%; /* Ancho del contenedor principal */
+#tarjeta-3{
+  position: relative;
+  background-color: #D50032;
+  margin-bottom: 30px;
+  font-size: large;
+}
 
-  }
-  
-  .box {
-    flex: 1; /* Cada caja ocupa el mismo espacio */
-    margin: 10px; /* Separación entre las cajas */
-    height: 492.4px; /* Altura fija. vista en inspector de elementos*/
-    background-color: #98CDE4; /* Color de fondo */
-    color: white;
-    display: flex;
-    flex-direction: column; /* Elementos en columna */
-    justify-content: center; /* Centra verticalmente */
-    align-items: center; /* Centra horizontalmente */
-    text-align: center; /* Centra el texto */
-  }
-  .box img {
-    width: 100%; /* Ajusta el tamaño máximo */
-    height: auto;
-    margin-bottom: 10px; /* Espacio debajo de la imagen */
-    align-self: flex-start;
-  }
-  
-  /* Texto */
-  .box p {
-    font-size: 1rem;
-    margin-bottom: 10px; /* Espacio debajo del texto */
-    color: black;
-  }
-  
-  /* Botón */
-  .box button {
-    background-color: #F6BFD9;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 0.9rem;
-  }
-  
-  .box button:hover {
-    background-color: #3e8e41;
-  }
+#tarjeta-3 .contenedor-imagen-3{
+  width: 50%;
+  vertical-align: middle;
+}
+
+#tarjeta-3 .contenedor-imagen-3 .imagen-starbucks3{
+  max-width: 100%;
+}
+.contenedor-texto-3{
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 100px;
+  line-height: 1.5;
+}
+.contenedor-interno3{
+  display: inline-block;
+}
+
+#tarjeta-4{
+  position: relative;
+  background-color: #1E3932;
+  margin-bottom: 30px;
+}
+ 
+.contenedor-texto-4{
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 580px;
+  height: 100%;
+  line-height: 1.5;
+}
+#tarjeta-4 .contenedor-imagen-4{
+  width: 50%;
+  vertical-align: middle;
+}
+#tarjeta-4 .contenedor-imagen-4 .imagen-starbucks4{
+  max-width: 100%;
+  text-align: right;
+}
+.contenedor-interno4{
+  display: inline-block;
+}
+
+#tarjeta5{
+  position: relative;
+  background-color: #D50032;
+  margin-bottom: 30px;
+}
+
+#tarjeta5 .contenedor-imagen5{
+  width: 50%;
+  vertical-align: middle;
+}
+
+#tarjeta5 .contenedor-imagen5 .imagen-starbucks5{
+  max-width: 100%;
+}
+.contenedor-texto5{
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 580px;
+  height: 100%;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.contenedor-interno5{
+  display: inline-block;
+}
+
+.boton-custom{
+  background-color:  #D50032;
+  color: black;
+  border: 2px solid wheat;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.boton-custom:hover {
+  padding: 17px 27px;
+} 
+.container {
+  display: flex;
+  justify-content: space-between; /* Espaciado opcional */
+  align-items: center; /* Alineación vertical opcional */
+  width: 100%; /* Ancho del contenedor principal */
+
+}
+
+.box {
+  flex: 1; /* Cada caja ocupa el mismo espacio */
+  margin: 10px; /* Separación entre las cajas */
+  background-color: #98CDE4; /* Color de fondo */
+  color: white;
+  display: flex;
+  flex-direction: column; /* Elementos en columna */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  text-align: center; /* Centra el texto */
+  margin-top: 30px;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  align-self: flex-start;
+}
+.box p {
+  font-size: 1rem;
+  margin-bottom: 10px; /* Espacio debajo del texto */
+  color: black;
+}
+
+/* Botón */
+.box button {
+  background-color: #F6BFD9;
+  border: 2px solid wheat;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.box button:hover {
+  background-color: #3e8e41;
+}
   
 
   
