@@ -20,14 +20,14 @@
         margin-top: 2rem;
     }
     .box {
-        flex: 1 1 45%; /* Las cajas ocuparán el 45% de su contenedor */
-        margin: 5px; /* Menor separación entre las cajas */
+        flex: 1 1 45%; 
+        margin: 5px; 
     }
 }
 
 @media screen and (max-width: 480px) {
     .box {
-        flex: 1 1 100%; /* Las cajas ocuparán el 100% de su contenedor */
+        flex: 1 1 100%;
     }
     .contenedor-texto, .contenedor-texto-2, .contenedor-texto-3, .contenedor-texto-4, .contenedor-texto5 {
         margin-top: 1.5rem;
