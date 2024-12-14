@@ -1,3 +1,27 @@
+/* Dispositivos pequeños (pantallas móviles) */
+@media screen and (max-width: 480px) {
+    .box {
+        flex: 1 1 100%; /* Las cajas ocuparán el 100% de su contenedor */
+    }
+    .contenedor-texto, .contenedor-texto-2, .contenedor-texto-3, .contenedor-texto-4, .contenedor-texto5 {
+        margin-top: 1.5rem;
+    }
+}
+/* Dispositivos medianos (tabletas) */
+@media screen and (max-width: 768px) {
+    #tarjetas, #tarjeta-2, #tarjeta-3, #tarjeta-4, #tarjeta5 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .contenedor-texto, .contenedor-texto-2, .contenedor-texto-3, .contenedor-texto-4, .contenedor-texto5 {
+        margin-top: 2rem;
+    }
+    .box {
+        flex: 1 1 45%; /* Las cajas ocuparán el 45% de su contenedor */
+        margin: 5px; /* Menor separación entre las cajas */
+    }
+}
+/* Dispositivos grandes (escritorios) */
 @media screen and (max-width: 1200px) {
     #tarjetas, #tarjeta-2, #tarjeta-3, #tarjeta-4, #tarjeta5 {
         width: 90%;
@@ -10,26 +34,71 @@
         margin-top: 4rem;
     }
 }
-
-@media screen and (max-width: 768px) {
-    #tarjetas, #tarjeta-2, #tarjeta-3, #tarjeta-4, #tarjeta5 {
-        width: 100%;
-        margin-left: 0;
-    }
-    .contenedor-texto, .contenedor-texto-2, .contenedor-texto-3, .contenedor-texto-4, .contenedor-texto5 {
-        margin-top: 2rem;
-    }
-    .box {
-        flex: 1 1 45%; 
-        margin: 5px; 
-    }
-}
-
+/* Dispositivos pequeños (pantallas móviles) */
 @media screen and (max-width: 480px) {
-    .box {
-        flex: 1 1 100%;
-    }
-    .contenedor-texto, .contenedor-texto-2, .contenedor-texto-3, .contenedor-texto-4, .contenedor-texto5 {
-        margin-top: 1.5rem;
-    }
+  .topnavbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .topnavbar .nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cookie-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cookie-banner .banner-text-container {
+    margin-bottom: 20px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-links {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-links ul li {
+    font-size: 18px;
+  }
+  .footer-social {
+    margin-top: 10px;
+  }
 }
+
+/* Dispositivos medianos (tabletas) */
+@media screen and (max-width: 768px) {
+  .topnavbar {
+    max-width: 90%;
+  }
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footer-links {
+    width: 80%;
+    flex-wrap: nowrap;
+  }
+  .footer-links ul li {
+    font-size: 20px;
+  }
+}
+
+/* Dispositivos grandes (escritorios) */
+@media screen and (max-width: 1200px){
+  .topnavbar {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-links {
+    width: 60%;
+    flex-wrap: nowrap;
+  }
+}
+
+
