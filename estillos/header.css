@@ -32,6 +32,9 @@ body{
 }
 .topnavbar .nav .nav-item a:hover{
   color: green;
+  text-decoration: underline;
+  text-decoration-thickness: 3px; /* Controla el grosor del subrayado */
+  text-decoration-color: black;
 }
 
 .cookie-banner{
